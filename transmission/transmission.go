@@ -27,6 +27,7 @@ type arguments struct {
 	MetaInfo     string       `json:"metainfo,omitempty"`
 	Filename     string       `json:"filename,omitempty"`
 	TorrentAdded TorrentAdded `json:"torrent-added"`
+	Paused       bool         `json:"paused,omitempty"`
 }
 
 //Torrent struct for torrents
